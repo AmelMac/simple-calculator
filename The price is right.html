@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+
+  <script>
+      let playerName = prompt("What's your name?");
+      console.log(playerName);
+      
+      const random = Math.floor(Math.random() * 100) + 1;
+
+      let playerNumber = prompt("pick a number betwwen 1 & 100?");
+
+     
+      do{
+          playerNumber = prompt("pick a number betwwen 1 & 100?");
+      }while (
+          if (playerNumber > random){
+              console.log("it is less...");
+          }
+          if (playerNumber < random){
+              console.log("it is more...");
+          }
+          if (playerNumber === random){
+              console.log("<playerName> wins!");
+          }
+          
+      )
+
+         
+
+          
+      
+        
+  </script>
+</body>
+</html>
