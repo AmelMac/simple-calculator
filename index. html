@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+
+  <script>
+  //console.log('Hello world');
+  //let firstValue = 1;
+  //let operator = "+";
+  //let secondValue = 2;
+
+  let firstValue = prompt("First input");
+  let operator = prompt("operation");
+  let secondValue = prompt("Second input");
+
+  console.log(firstValue);
+  console.log(operator);
+  console.log(secondValue)
+  </script>
+</body>
+</html>
