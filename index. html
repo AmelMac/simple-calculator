@@ -20,12 +20,32 @@
   let secondValue = parseInt(prompt("Second input"));
   
   
-  if (operator === `+`){
-    console.log(firstValue + secondValue);
-  }else
-    console.log(firstValue - secondValue);
+  switch (operator){
+    case "+":
+      console.log(firstValue+secondValue);
+      break;
+    case "-":
+      console.log(firstValue-secondValue);
+      break;
+    case "*":
+      console.log(firstValue*secondValue);
+      break;
+    case "/":
+      console.log(firstValue/secondValue);
+      break;
+    default:
+      console.log("Invalid operator");  
+  }
 
-    
+
+  /*if (operator === `+`){
+    console.log(firstValue + secondValue);
+  }
+  else{
+    console.log(firstValue - secondValue);
+  } */ 
+
+
   //console.log(firstValue + secondValue);
 
   //console.log(firstValue);
