@@ -19,7 +19,14 @@
   let operator = prompt("operation");
   let secondValue = parseInt(prompt("Second input"));
   
-  console.log(firstValue + secondValue);
+  
+  if (operator === `+`){
+    console.log(firstValue + secondValue);
+  }else
+    console.log(firstValue - secondValue);
+
+    
+  //console.log(firstValue + secondValue);
 
   //console.log(firstValue);
   //console.log(operator);
