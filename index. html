@@ -15,13 +15,15 @@
   //let operator = "+";
   //let secondValue = 2;
 
-  let firstValue = prompt("First input");
+  let firstValue = parseInt( prompt("First input"));
   let operator = prompt("operation");
-  let secondValue = prompt("Second input");
+  let secondValue = parseInt(prompt("Second input"));
+  
+  console.log(firstValue + secondValue);
 
-  console.log(firstValue);
-  console.log(operator);
-  console.log(secondValue)
+  //console.log(firstValue);
+  //console.log(operator);
+  //console.log(secondValue)
   </script>
 </body>
 </html>
